@@ -15,12 +15,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/codeup-design-bootstrap.css">
 </head>
-<body style="background-color: #E6E6E6">
+<body class="mb-4" style="background-color: #f0f0f0">
 <div class="container-fluid ">
+    <!-- the navigation bar begins here -->
     <nav class="navbar navbar-expand-lg mb-5" style="font-family: 'Abel', sans-serif;">
         <div class="container-fluid">
             <img class="me-2" src="img/logo.png" height="60" width="60"/>
-            <a class="navbar-brand   d-md-none d-lg-block " href="#">codeup design</a>
+            <a class="navbar-brand d-md-none d-lg-block " href="#">codeup design</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -43,9 +44,10 @@
             </div>
         </div>
     </nav>
+    <!-- the main header section begins here -->
     <header class="container mt-5" style="font-family: 'Anton', sans-serif; ">
         <div class="row d-flex justify-content-center">
-            <div class="col-sm-12 header-menu mb-5 d-flex text-center text-uppercase">visual design & web development</div>
+            <div class="col-sm-12 header-menu mb-4 d-flex text-center text-uppercase">visual design & web development</div>
             <div class="col-sm-12 sub-heading mb-5 text-center text-uppercase">from park city, utah</div>
         </div>
         <div class="container mt-5">
@@ -57,19 +59,27 @@
             </div>
         </div>
     </header>
-
-    <section class="container">
+    <!-- the horizontal line in the middle of the page begins here -->
+    <div class="container">
         <hr>
+    </div>
+    <!-- the middle sub-heading begin here -->
+    <section class="container d-flex flex-row text-center align-items-center my-4">
+        <div class="d-flex flex-row justify-content-center col-8 div-center">
+            <h5 class=" text-uppercase text-center text-muted">Selected Work</h5>
+        </div>
+        <div class="d-flex flex-row col-4 justify-content-center d-none d-lg-block">
+            <h5 class="text-uppercase text-muted">the last</h5>
+        </div>
     </section>
 
-    <main class="container border">
-        <h5 class="my-5 text-uppercase text-center text-muted">Selected Work</h5>
+    <main class="container d-flex flex-row">
         <!--parent container -->
         <section class="row">
-
+            <!-- first card begin here --->
             <div class="col-md-6">
-                <div class="col-12">
-                    <img class="img-fluid" src="img/coding-on-screen.jpg" alt="">
+                <div class="col-12 ">
+                    <img class="img-fluid main-img" src="img/apple-ipad.jpg" alt="apple and laptop picture">
                 </div>
                 <div class="row d-flex flex-row align-items-center py-2">
                     <div class="col-6 caption text-uppercase">featured project</div>
@@ -81,10 +91,10 @@
                     </div>
                 </div>
             </div>
-
+            <!-- second card begin here --->
             <div class="col-md-6">
                 <div class="col-12">
-                    <img class="img-fluid" src="img/computer-coffee-cub.jpg" alt="">
+                    <img class="img-fluid main-img" src="img/macbook.jpg" alt="macbook desktop">
                 </div>
                 <div class="row d-flex flex-row  align-items-center py-2">
                     <div class="col-6 caption text-uppercase">featured project</div>
@@ -96,10 +106,10 @@
                     </div>
                 </div>
             </div>
-
+            <!-- third card begin here --->
             <div class="col-md-6">
                 <div class="col-12">
-                    <img class="img-fluid" src="img/metrics-binary.jpg" alt="">
+                    <img class="img-fluid main-img" src="img/man.jpg" alt="a man wearing eye glass">
                 </div>
                 <div class="row d-flex flex-row align-items-center py-2">
                     <div class="col-6 caption text-uppercase">featured project</div>
@@ -111,10 +121,10 @@
                     </div>
                 </div>
             </div>
-
+            <!-- fourth card begin here --->
             <div class="col-md-6">
                 <div class="col-12">
-                    <img class="img-fluid" src="img/person-laptob.jpg" alt="">
+                    <img class="img-fluid main-img" src="img/security.jpg" alt="a computer search engine">
                 </div>
                 <div class="row d-flex flex-row align-items-center py-2">
                     <div class="col-6 caption text-uppercase">featured project</div>
@@ -126,28 +136,28 @@
                     </div>
                 </div>
             </div>
-
         </section>
-        <aside class="side-bar">
-            <div>
+        <!-- side bar begins here -->
+        <aside class="side-bar ms-5 hidden">
+            <div class="d-flex flex-row">
                 <div>
-                    <img src="" alt="">
+                    <img src="img/mobile-phone.jpg" alt="a cell phone at the top of a computer keyboard">
                 </div>
-                <h4>the admin bar and absolute positioning</h4>
+                <h4 class="ps-4" style="font-family: 'Anton', sans-serif;">the admin bar and absolute positioning</h4>
             </div>
-            <div>
+            <div class="d-flex flex-row mb-4">
                 <div>
-                    <img src="" alt="">
+                    <img src="img/head.jpg" alt="">
                 </div>
-                <h4>nibbler awesome website testing</h4>
+                <h4 class="ps-4" style="font-family: 'Anton', sans-serif;">nibbler awesome website testing</h4>
             </div>
-            <div>
+            <div class="d-flex flex-row mb-4">
                 <div>
-                    <img src="" alt="">
+                    <img src="img/ipad.jpg" alt="">
                 </div>
-                <h4>how to get google to like you</h4>
+                <h4 class="ps-4" style="font-family: 'Anton', sans-serif;">how to get google to like you</h4>
             </div>
-            <div>
+            <div class="">
                 <h5>last tweet</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Eaque unde quidem a id animi deleniti temporibus quia perspiciatis?

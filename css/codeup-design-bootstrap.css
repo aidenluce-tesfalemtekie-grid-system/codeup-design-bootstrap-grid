@@ -2,10 +2,10 @@
     z-index: 100;
 }
 .my-circle {
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     color: #fff;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     border: 10px solid white;
 }
 .header-menu {
@@ -21,4 +21,21 @@
     width: 30px;
     height: 30px;
     font-weight: bold;
+}
+.main-img {
+    border: 5px solid #e6e6e6;
+}
+@media screen and (min-width: 257px) and (max-width: 768px) {
+    .hidden {
+        display: none;
+    }
+    .div-center {
+        display: flex;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:992px) {
+    .hidden {
+        display: none;
+    }
 }
