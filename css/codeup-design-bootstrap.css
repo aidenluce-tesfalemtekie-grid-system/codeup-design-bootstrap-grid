@@ -2,7 +2,7 @@
     z-index: 100;
 }
 .my-circle {
-    width: 250px;
+    width: 0px;
     height: 250px;
     color: #fff;
     font-size: 2.8rem;
@@ -16,7 +16,6 @@
 }
 .caption {
     font-size: 1rem;
-    text-transform: uppercase;
 }
 .featured-project {
     width: 30px;
