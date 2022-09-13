@@ -2,14 +2,14 @@
     z-index: 100;
 }
 .my-circle {
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 120px;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border: 10px solid white;
 }
-.header-menu {
-    font-size: 5rem;
+.hero-text {
+    font-size: 4.8rem;
 }
 .sub-heading {
     font-size: 3rem;
