@@ -1,3 +1,6 @@
+.navbar {
+    z-index: 100;
+}
 .my-circle {
     width: 250px;
     height: 250px;
@@ -12,7 +15,7 @@
     font-size: 5rem;
 }
 .caption {
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-transform: uppercase;
 }
 .featured-project {
