@@ -11,8 +11,12 @@
 .sub-heading {
     font-size: 5rem;
 }
+.caption {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
 .featured-project {
-    width: 18px;
-    height: 18px;
-
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
 }
