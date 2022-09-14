@@ -8,8 +8,20 @@
     font-size: 1.2rem;
     border: 10px solid white;
 }
+.design {
+    background-color: #E6563B;
+}
+.develop {
+    background-color: #EB9D3A;
+}
+.support {
+    background-color: #7CB06C;
+}
+.host {
+    background-color: #00ABA9;
+}
 .hero-text {
-    font-size: 4.8rem;
+    font-size: 4.5rem;
 }
 .sub-heading {
     font-size: 3rem;
@@ -24,6 +36,12 @@
 }
 .main-img {
     border: 5px solid #e6e6e6;
+}
+.side-bar-info {
+    font-family: 'Anton', sans-serif;
+}
+.side-bar-heading {
+    font-size: 0.9rem;
 }
 @media screen and (min-width: 257px) and (max-width: 768px) {
     .hidden {
